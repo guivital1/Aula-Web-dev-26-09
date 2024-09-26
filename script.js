@@ -72,4 +72,47 @@ console.log(x > y || y < 50); // ou
 let nome = "fiap"
 if(nome == 'fiap'){
     console.log("Nome correto")
+} else {
+    console.log("Nome incorreto")
+}
+
+// if else else if (encadeado/alinhado)
+
+let idade = 18;
+
+if (idade <= 13){
+    console.log("é uma criança")
+} else if (idade >= 13 && idade <= 17){
+    console.log('é um aborrecente')
+} else if (idade >= 18 && idade <= 50){
+    console.log("É um Adulto")
+} else {
+    console.log("é um idoso")
+}
+
+// condiçao ternaria
+
+let numero2 = 150;
+
+let resultado = numero2 == 100 ? "Correto" : "Errado";
+
+console.log(resultado
+)
+
+// condição switch case
+
+const pratos = 'lasanhas';
+
+switch(pratos){
+    case "Macarrão":
+        console.log("O melhor Macarrão");
+        break;
+    case "Salada":
+        console.log("Salada Saudável");
+        break;
+    case 'lasanhas':
+        console.log("O melhor prato de Massa")
+        break;
+    default:
+        console.log("Nenhum prato escolhido")
 }
