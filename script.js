@@ -116,3 +116,49 @@ switch(pratos){
     default:
         console.log("Nenhum prato escolhido")
 }
+
+// crie um programa que diga se os valores z e f são verdadeiros
+
+let valorexc1 = "z";
+let valorexc2 = 'f';
+if(valorexc1 == valorexc2){
+    console.log("É verdadeiro")
+} else {
+    console.log("Não é verdadeiro")
+}
+
+// crie um progreama que verifique se a pessoa pode beber bebida alcoolica (encadeado)
+//maior de 18 pode beber, menor não pode, e maior de 70 moderado
+
+let idadeexc = 18;
+
+if (idadeexc <= 18){
+    console.log("Menor de idade, não pode beber")
+} else if (idade >=18){
+    console.log("Pode beber")
+} else if (idade >=70){
+    console.log("Pode beber moderadamente")
+}
+
+let carro = 'fusca';
+
+switch(carro){
+    case "Brasilia":
+        console.log("O carro escolhido foi uma Brasilia");
+        break;
+    case "Kombi":
+        console.log("O carro escolhido foi uma Kombi");
+        break;
+    case 'Variant':
+        console.log("O carro escolhido foi um variant")
+        break;
+    default:
+        console.log("Nenhum carro foi escolhido")
+}
+
+let salario = 1400;
+
+let resultadosalario = salario == 1400 ? "Correto" : "Errado";
+
+console.log(resultadosalario
+)
