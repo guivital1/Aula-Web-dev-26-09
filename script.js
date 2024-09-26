@@ -34,3 +34,5 @@ console.log(objeto)
 let array = [];
 console.log(array)
 
+let array1 = [];
+console.log(array1)
